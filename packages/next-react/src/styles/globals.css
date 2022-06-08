@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 640px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+body {
+    overflow: hidden;
+}
+.page-content {
+    @apply prose;
+}
+.page-invert {
+    margin: 0 -3ch;
+}

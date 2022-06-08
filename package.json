@@ -1,0 +1,14 @@
+{
+  "workspaces": [
+    "./packages/react",
+    "./packages/cli",
+    "./packages/next-react",
+    "./packages/sandbox"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.3.5",
+    "typescript-transform-paths": "^3.3.1"
+  }
+}
